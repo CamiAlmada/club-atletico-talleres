@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario de Contacto</title>
+
+    <link rel="shortcut icon" href="../images/Escudo_Talleres_2015.svg.png" type="image/x-icon"/>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"/>
+
+
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body >
+
+    <main>
+        <section class="formulario__responsive">
+            
+            <h3 >Completa con tus datos:</h3>
+            <br/>
+            <br/>
+        
+
+         <form action="" method="GET"  >
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"/>
+
+            <br/>
+            <br/>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"/>
+
+            <br/>
+            <br/>
+
+            <label for="correo">Ingrese su email:</label>
+            <input type="email" name="correo" id="correo"/>
+
+            <br/>
+            <br/>
+
+            <fieldset>
+
+                <legend>¿Eres socio?</legend>
+                <label for="si">SI</label>
+                <input type="radio" id="si" name="socio"/>
+
+                <label for="no">NO</label>
+                <input type="radio" id="no" name="socio"/>
+
+            </fieldset>
+
+            <br/>
+
+            <label for="tribunas">Tribunas:</label>
+            <select name="tribunas" id="tribunas">
+                <option value="wilington">Popular Willington</option>
+                <option value="gasparini">Platea Gasparini</option>
+                <option value="Ardiles">Platea Ardiles</option>
+            </select>
+
+            <br/>
+            <br/>
+
+            <label for="categoria">¿Qué categoría de socio eres?:</label>
+            <select name="categoria" id="categoria">
+                <option value="sociot">Socio T</option>
+                <option value="sociocat">Socio CAT</option>
+                <option value="socioalbiazul">Socio Albiazul</option>
+                <option value="socio1913">Socio 1913</option>
+                <option value="socio1913palco">Socio 1913 Palco</option>
+                <option value="socioniños">Socio Niños</option>
+                <option value="sociojuvenil">Socio Juvenil</option>
+            </select>
+
+             <br/>
+             <br/>
+
+             <label for="consulta">Dejanos tus dudas o consultas:</label>
+             <textarea name="consulta" id="consulta" cols="35" rows="15" placeholder="Deje su mensaje aquí.."></textarea>
+             <br/>
+             <br/>
+
+            <input type="checkbox" id="newsletter"/>
+            <label for="newsletter">Suscribite a nuestro newsletter</label>
+
+            <br/>
+            <br/>
+
+            <button type="submit">ENVIAR</button>
+            <button type="reset">LIMPIAR</button>
+
+        
+          </form>  
+
+        </section>
+    </main>
+    
+</body>
+</html>

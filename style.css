@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+.h1 {
+
+    color: white ; 
+    font-size: 80px; 
+    font-family: 'Anton', sans-serif;
+    text-align: center;  
+    letter-spacing: 3.5px;
+        
+}
+
+/* ver como modificar la imagen de camiseta */
+
+ .navfijo  {
+    position: sticky;
+    top: 0;
+} 
+
+h1{
+
+   color: aliceblue; 
+   font-size: 70px;
+   text-align: center;
+   font-family: 'Anton', sans-serif;
+   font-weight: bolder;
+}
+
+body {
+    background-color: rgba(13, 13, 59);
+}   
+
+
+header{
+    background-color: whitesmoke;
+    text-align: center;
+    border: solid;
+}
+
+.navbar{
+    text-decoration: none;
+    color: rgba(13, 13, 59) ;
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;   
+    height: 30px;
+    margin: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.escudo__responsive{
+    display: none;
+}
+
+.escudo{
+    text-align: center  ;
+}
+
+.frase{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(235, 228, 228);
+    letter-spacing: 0.5px;
+}
+
+footer{
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(13, 13, 59)    ;
+    background-color: whitesmoke ;
+    font-family:'Anton', sans-serif ;
+    font-size: small;
+    letter-spacing: 0.5px;
+    
+}
+
+.enlace{
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+}
+
+.h3{
+    color: aliceblue;
+    font-size: xx-large ;
+    font-family:'Anton', sans-serif ;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.formulario{
+
+    color: rgb(30, 30, 95);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    width: 900px;
+    height: 650px ;
+    margin-left: 180px;
+    border: 10px groove rgb(30, 30, 184);
+    
+}
+
+.form__responsive{
+    display: none;  
+
+}
+.fondo{
+    background-image: url(./images/fondo.jpg );
+    
+    background-size: 100%;
+
+
+}   
+
+.parrafo   {
+color: black;
+font-family: 'Gentium Basic', serif;
+font-family: 'Roboto', sans-serif;
+font-size: 25px;
+font-weight: bold;
+text-align: initial;
+line-height: normal;
+
+}
+
+.overflow{
+    background-color: rgb(223, 219, 219);
+    width: 300px;
+    height: 350px;
+    overflow-x: hidden;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    border-bottom:solid 12px gray ;
+    border-top: solid 5px rgb(76, 76, 76);
+    border-right: solid 10px rgb(48, 48, 48);
+    border-left: solid 12px rgb(137, 134, 134);
+    border-radius: 10px;
+}
+
+.overflow__beneficiogolazo{
+    
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;    
+
+}
+
+.title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}   
+.sobrenosotros__enlaces{
+    background-color: rgba(13, 13, 59);
+    color: white;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;   
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+    height:  60px;
+
+}
+
+.sobrenosotros__h1{
+   color: rgba(13, 13, 59);  
+   font-family: 'Anton', sans-serif;      
+
+}
+
+.sobrenosotros__footer{
+
+    font-style: italic;
+    font-weight: lighter;
+    background-color: rgba(13, 13, 59)    ;
+    font-family:'Anton', sans-serif ;
+    font-size: small;
+    color: white;
+}
+
+ .camiseta{
+
+    overflow: visible;   
+
+} 
+
+ .camiseta__div{
+
+    position: relative;
+       
+}
+
+.camiseta__div img {
+
+    width: 100%;
+    height: 95%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+     
+}
+
+.camiseta__div--cartel{ 
+
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+
+}
+
+.camiseta__titulo {
+
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    text-align: center;
+ 
+   
+
+}
+
+.camiseta__descripcion{
+
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    text-align: center;
+    
+}
+
+.camiseta__link {
+    
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: white;
+    background-color:rgba(13, 13, 59);
+    text-decoration : none;
+    border-radius:10px;
+    padding: 3px;
+ 
+    
+}
+
+.noticias{
+    background-color: rgb(223, 219, 219);
+    width: 300px;
+    height: 350px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    border-bottom:solid 12px gray ;
+    border-top: solid 5px rgb(76, 76, 76);
+    border-right: solid 10px rgb(48, 48, 48);
+    border-left: solid 12px rgb(137, 134, 134);
+    border-radius: 10px;
+    background-image: url(./images/fondonoticias.jpg);
+    background-size: 100%;
+    
+
+}
+
+.noticias__imagen{
+
+   display: block;
+   margin: auto;
+   margin-top: 15px;
+   
+    
+
+}
+
+.noticias__parrafo{
+
+    text-align: center;
+    font-weight: 800;
+   
+}
+
+.flex{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -25px;
+}
+
+.card{
+    max-width: 1200px;
+    max-width: 0 auto;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: space-around;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.grid__card{
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    margin-top: 150px ;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+.grid__card p {
+    font-size: 20px;
+    color: darkblue;
+}
+
+.boton{
+    background-color: rgb(159, 159, 159);
+    color: indigo;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px 10px;
+    margin-top: 10px;
+}
+
+.color{
+
+    background-image: linear-gradient( to left, blue, rgb(47, 15, 140), rgb(19, 19, 73) ) 
+}
+
+
+@media  (max-width: 480px){
+    body {
+        background-color: white;
+         ;
+    }
+
+    .h1{
+        color: rgba(13, 13, 59);  
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .frase{
+        color: rgba(13, 13, 59); 
+        text-align: center;
+        font-size: 30px;
+      
+    }
+
+    footer{
+        background-color: rgba(13, 13, 59);  
+        color: azure;
+        letter-spacing: 3.5px;
+    }
+
+    .navbar{
+        display: inline-block;
+        margin-top: 5px;
+        font-size: medium;
+        height: 15px;
+        text-align: end;
+    }
+
+    header{
+        color:white;
+    }
+    .escudo{
+       display: none;
+    }
+
+    h1{
+        color: rgba(13, 13, 59);
+        font-size: 50px;
+        letter-spacing: 0.5px;
+
+    }
+
+    .enlace{
+        display: none;
+    }
+
+    .h3{
+        color: rgba(13, 13, 59);
+        margin-left: auto   ;
+        margin-bottom: -100px;
+        font-size: 20px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-left: 15px;
+        row-gap: 10px;
+    }
+
+    .formulario{
+       display: none;
+    
+    }
+
+    .sobrenosotros__h1{
+        margin-left: 25px;
+    }
+
+    .sobrenosotros__enlaces{
+        display: none
+
+    }
+    .parrafo{
+        font-size: 20px;
+        font-weight:bold;
+    }
+    .form__responsive{
+        display: inline-block;
+        color: rgba(13, 13, 59);
+        width: 50%;
+        background-color: lightslategray;
+        font-size: x-large;
+        font-family: 'Anton', sans-serif;
+        border-radius: 10px;
+        padding: 5px;
+        text-decoration: none ;
+        text-align: center; 
+        margin-top: 50px;
+         
+    }
+
+    .formulario__responsive{
+
+            color: rgb(30, 30, 95);
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: beige;    
+            border: 10px groove rgb(30, 30, 184);       
+
+    }
+
+    .escudo__responsive{
+       display: block;
+       position: absolute;
+       top: 25px;
+    }
+
+}
+
+
+
+
+@media (max-width: 780px){
+
+    header{
+        width: 100%
+    }
+
+    .navbar{
+        width: 100%;
+         margin-left: -15px;
+        font-size: medium;
+    }
+
+    .grid{
+
+        display: grid;
+        grid-template-columns:  1fr;
+        align-items:  center;
+        justify-items: center;
+        margin-left: -35px;
+    }
+
+    .h3{
+        text-align:  center;
+        margin-left: -15px;
+    }
+
+    .enlace{
+        margin-left: 20px;
+    }
+
+    .sobrenosotros__h1{
+        margin-left: 25px;
+    }
+
+    .formulario{
+        display: none;
+    }
+
+    .form__responsive{
+
+        display: inline-block;
+        color: rgba(13, 13, 59);
+        width: 50%;
+        background-color: lightslategray;
+        font-size: x-large;
+        font-family: 'Anton', sans-serif;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        top: 70%;
+        left: 25%;
+        
+    }
+
+    .formulario__responsive{
+
+            color: rgb(30, 30, 95);
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: beige;    
+            border: 5px groove rgb(30, 30, 184);
+
+    }
+}   
+
+
+
+    
