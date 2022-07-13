@@ -1,0 +1,45 @@
+.fondo{
+    background-image: url(../images/kempes.jpeg );
+    
+    background-size: 100%;
+
+
+} 
+
+.parrafo   {
+    color: rgb(252, 242, 242);
+    font-family: 'Gentium Basic', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: initial;
+    line-height: normal;
+    text-indent: 50px;
+    
+    }
+
+
+.sobrenosotros__enlaces{
+
+    background-color: $blue;
+    color: white;
+    text-decoration: none;
+    font-family: $fontAnton;
+    font-size: x-large;   
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+    height:  60px;   
+     
+}
+ 
+
+
+.sobrenosotros__h1{
+
+    color: #e9e9eb;  
+    font-family: $fontAnton;      
+ 
+ }

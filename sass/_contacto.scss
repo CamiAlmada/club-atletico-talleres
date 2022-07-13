@@ -1,0 +1,22 @@
+.formulario{
+
+    color:#1e1e5f;
+    text-align: center;
+    font-size: 20px;
+    font-family: $font;
+    background-color: beige;
+    width: 900px;
+    height: 650px ;
+    margin-left: 250px;
+    border: 10px groove #1e1eb8;
+
+
+    &__responsive{
+
+        display: none; 
+
+    }
+    
+}
+
+

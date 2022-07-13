@@ -1,0 +1,90 @@
+.h3{
+
+    color: $white;
+    font-size: xx-large ;
+    font-family: $fontAnton ;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 150px;
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+
+
+.card{
+    max-width: 1200px;
+    max-width: 0 auto;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: space-around;
+    margin-left: 220px;
+    margin-top: -50px;
+
+    &__card{
+
+        background-color: gray;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 20px;
+        border-radius: 10px;
+        width: 250px;
+        height: 350px;
+        text-align: center;
+        margin-top: 150px ;
+        font-size: 13px;
+        font-family: $fontG;
+
+        & p{
+
+            font-size: 20px;
+            color: darkblue;
+        }
+    }
+}
+
+
+.boton{
+
+    background-color: rgb(159, 159, 159);
+    color: indigo;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px 10px;
+    margin-top: 10px;
+}
+
+
+
