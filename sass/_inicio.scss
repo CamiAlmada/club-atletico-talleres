@@ -25,28 +25,42 @@
 }
 
 
-//ver animacion no es la que quiero y aparece asi en webcode (pulse)//
+//ver animacion no es la que quiero y aparece asi en webcode (pulse) y ver como eliminar scroll//
 
 
 .animacion{
 
-    animation: myAnim 4s ease 0s infinite normal forwards;
+    animation: myAnim 2s ease 0s 1 normal forwards;
 }
-
 
 @keyframes myAnim {
 	0% {
+		animation-timing-function: ease-out;
 		transform: scale(1);
+		transform-origin: center center;
 	}
 
-	50% {
-		transform: scale(1.1);
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
 	}
 
-	100% {
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
 		transform: scale(1);
 	}
 }
+
 
 
 .frase{
@@ -79,12 +93,13 @@
 
 }
 
-.overflow{
+//MIXINS//
+
+@mixin card-base {
 
     background-color: rgb(223, 219, 219);
     width: 300px;
     height: 350px;
-    overflow-x: hidden;
     font-size: 14px;
     font-family: $font;
     margin: 20px;
@@ -93,6 +108,16 @@
     border-right: solid 10px rgb(48, 48, 48);
     border-left: solid 12px rgb(137, 134, 134);
     border-radius: 10px;
+    
+}
+
+.card1{
+
+    @include card-base;
+
+    
+    overflow-x: hidden;
+    
 
     &__beneficiogolazo {
 
@@ -163,23 +188,21 @@
       text-decoration : none;
       border-radius:10px;
       padding: 3px;
+      position: relative;
+      margin-left: 40%;
+      
 
     }
 } 
 
-.noticias{
+.card2{
+    @include card-base;
+}
 
-    background-color: rgb(223, 219, 219);
-    width: 300px;
-    height: 350px;
-    font-size: 14px;
-    font-family: $font;
-    margin: 20px;
-    border-bottom:solid 12px gray ;
-    border-top: solid 5px rgb(76, 76, 76);
-    border-right: solid 10px rgb(48, 48, 48);
-    border-left: solid 12px rgb(137, 134, 134);
-    border-radius: 10px;
+.card3{
+
+    @include card-base;
+
     background-image: url(../images/fondonoticias.jpg);
     background-size: 100%;
 
@@ -202,10 +225,6 @@
 
 .text{
     
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: -25px;
 }
 

@@ -46,6 +46,21 @@ h1{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 50px  ;
+        
+    }
+
+    &__link{
+
+        margin-top: 60px;
+    }
+
+    &__rrss{
+
+        margin-left: 100px;
+    }
+
+    &__grid--list{
+        margin-left:  120px;
     }
 }
 
@@ -53,3 +68,33 @@ h1{
     max-width: 1200px;
     
     margin: 0 auto; }
+
+
+    //maps//
+
+    $redesSociales:(
+
+      facebook: #3364ff,
+      instagram: #ff33ff,
+      twitter: #33caff,
+
+    );
+
+    @each $redes, $color in $redesSociales {
+
+        .link-#{$redes}{
+            margin: 0 5px;
+            padding: 10px;
+            border-radius: 10px;
+            color: $white;
+            text-decoration: none;
+            background-color: $color;
+
+            &:hover{
+                background-color: gray;
+            }
+        }
+        
+    }
+
+
