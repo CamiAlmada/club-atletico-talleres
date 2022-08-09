@@ -98,7 +98,6 @@ footer{
 
 }
 
-/* no es la animacion que me muestra la pagina (latido) ver */
 
 .animacion{
     animation: myAnim 3s ease 0s infinite normal forwards;
