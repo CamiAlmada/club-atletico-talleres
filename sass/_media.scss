@@ -4,84 +4,7 @@
         display: none;
     }
 
-
-
-
-//    .navbar{
-//     &__enlace{
-//         display: inline-block;
-//         margin-top: 100px;
-//         font-size: medium;
-//         height: 250px;
-//         text-align: end;
-//         width: 250px;
-//         margin-left: -350px;
-
-
-//     }
-
-
-
-
-
-   }
-
-//   .navbar__responsive{
-//         display: inline-block ;
-//         margin-top: 100px;
-//         font-size: medium;
-//         height: 15px;
-//         text-align: end;
-//         width: 150px;
-
-
-
-//    .footer{
-//     text-align: center;
-//     font-size: 10px;
-//    }
-
-//     .footer__grid{
-//        display: grid;
-//        grid-template-columns: 1fr;
-//        margin-right: 150px;
-
-
-//          &--list{ text-align: left;
-//             margin-right: 100px;
-//             // margin-top: 50%;
-
-//          }
-
-
-
-        // .link-facebook{
-        //     text-align: center;
-        //     position: absolute;
-        //     bottom: -255%;
-        //     right: 50%;
-        // }
-        // .link-instagram{
-        //     text-align: center;
-        //     position: absolute;
-        //     bottom: -255%;
-        //     right: 20%;
-        // }
-
-        // .link-twitter{
-        //     text-align: center;
-        //     position: absolute;
-        //     bottom: -264%;
-        //     right: 35%;
-        //     margin-bottom: 10px;
-        // }
-
-
-
-        
-
-       
-
+ }
 
 
 
@@ -92,7 +15,6 @@
 
     }
 
-    /*titulos de cada pagina*/
 
     .h1{
         color: $white;
@@ -116,24 +38,11 @@
      .navbar__responsive{
         display: block;
         height: 120px;
-        
+
+
      }
 
 
-    // .navbar{
-    //     display: inline-block;
-    //     margin-top: 5px;
-    //     font-size: medium;
-    //     height: 15px;
-    //     text-align: end;
-    //      color:  whitesmoke;
-
-    //      &__responsive{
-
-    //      }
-    // }
-
-    
 
     header{
         color:white;
@@ -158,14 +67,15 @@
         margin-left: auto   ;
         margin-bottom: -100px;
         font-size: 20px;
+        z-index: 0;
     }
 
     .grid{
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
-        margin-left: 15px;
         row-gap: 10px;
+    
     }
 
      .formulario{
@@ -189,7 +99,6 @@
     .form__responsive{
         display: inline-block;
         color:$blue;
-
         background-color: lightslategray;
         font-size: 2px;
         font-family: $fontAnton;
@@ -197,11 +106,9 @@
         padding: 5px;
         text-decoration: none ;
         text-align: center;
-        margin-top: 50px;
         position: absolute;
-        top: 25%;
         left: 25%;
-        bottom: 30%;
+        z-index: 0;
         transition: transform 0.4s;
 
         &:hover{
@@ -211,15 +118,34 @@
 
     }
 
-    .link__responsive{
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        margin-left: -150px;
-        row-gap: 5px;
-
+    .link-cami{
+      left: 0;
     }
 
+    .link-camp{
+        left: 0;
+    }
+
+    .link-rem{
+        left: 0;
+    }
+    .link-pant{
+        left: 0;
+    }
+
+    .link-muj{
+        left: 0;
+    }
+
+    .link-nin{
+        left: 0;
+    }
+
+
+    .grid__card{
+        
+        margin-left: 35px;
+    }
 
      .escudo__responsive{
        display: block;
@@ -228,6 +154,7 @@
        height: 100px;
        width: 100px;
        padding-left: 15px;
+       z-index: 20;
     }
 
    .footer{
@@ -235,37 +162,40 @@
     text-align: center;
     font-size: 15px;
 
+
+
     &__grid{
 
         display: grid;
         grid-template-columns:1fr;
-    
-          
+        margin-left: 100px;
+
+
            }
 
-    //  &__rrss{
-    
-    //         display: none;
-     
-         &__bloque1{
-            text-align: center;
-         }        
-     
-     &__link{
-             display: flex;
-             flex-direction: column;
-             justify-content: space-between;
-     
-     
-    
-    }
 
-    &__co{
+    &__bloque1{
         text-align: center;
-       
     }
 
-   
+  
+
+   .footer__link{
+            align-items: center;
+             margin: 0;
+             width: 45vw;
+
+   }
+
+   .footer__grid--list{
+
+            align-items: center;
+             margin: 0;
+             width:45vw;
+
+   }
+
+
     }
 
 
@@ -395,7 +325,6 @@
             display: grid;
             grid-template-columns: 1fr;
             justify-items: center;
-            margin-left:-40%;
             row-gap: 10px;
             transition: transform 0.4s;
 

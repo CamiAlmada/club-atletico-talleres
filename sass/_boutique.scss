@@ -126,7 +126,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: space-around;
-    margin-left: 220px;
+    margin-left: 200px;
     margin-top: -50px;
 
     &__card{
@@ -161,6 +161,12 @@
     box-shadow: 0 25px 50px 10px;
     margin-top: 10px;
 }
+
+.movimiento {
+    transition: transform 0.2s; }
+    .movimiento:hover {
+      transform: translatey(-15px); }
+  
 
 
 
