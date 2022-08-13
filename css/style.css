@@ -95,6 +95,34 @@ header {
     transition: transform 0.4s; }
     .navbar__enlace:hover {
       transform: translatex(10px); }
+  .navbar__responsive {
+    display: none; }
+    .navbar__responsive:hover > ul {
+      display: block; }
+    .navbar__responsive i {
+      font-size: 35px; }
+    .navbar__responsive ul {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 100px;
+      width: 100%;
+      background-color: whitesmoke; }
+    .navbar__responsive li {
+      padding: 25px 0;
+      text-align: center; }
+      .navbar__responsive li a {
+        color: #0d0d3b;
+        font-weight: bold;
+        color: #0d0d3b;
+        font-family: "Anton", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        transition: transform 0.4s; }
+      .navbar__responsive li:hover {
+        transform: translatex(10px); }
+      .navbar__responsive li:nth-child(odd) {
+        background-color: white; }
 
 .formulario {
   color: #1e1e5f;
@@ -376,6 +404,10 @@ header {
   box-shadow: 0 25px 50px 10px;
   margin-top: 10px; }
 
+@media (max-width: 320px) {
+  .navbar {
+    display: none; } }
+
 @media (max-width: 480px) {
   body {
     background-color: white; }
@@ -383,18 +415,17 @@ header {
   .h1 {
     color: aliceblue;
     text-align: center;
-    font-size: 50px; }
+    font-size: 42px; }
   .frase {
     color: #0d0d3b;
     text-align: center;
     font-size: 30px;
     font-family: 'Galada', cursive; }
   .navbar {
-    display: inline-block;
-    margin-top: 5px;
-    font-size: medium;
-    height: 15px;
-    text-align: end; }
+    display: none; }
+  .navbar__responsive {
+    display: block;
+    height: 120px; }
   header {
     color: white; }
   .escudo {
@@ -437,7 +468,7 @@ header {
     text-align: center;
     margin-top: 50px;
     position: absolute;
-    top: 10%;
+    top: 25%;
     left: 25%;
     bottom: 30%;
     transition: transform 0.4s; }
@@ -457,14 +488,19 @@ header {
     width: 100px;
     padding-left: 15px; }
   .footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); }
-    .footer__rrss {
-      display: none; }
+    text-align: center;
+    font-size: 15px; }
+    .footer__grid {
+      display: grid;
+      grid-template-columns: 1fr; }
+    .footer__bloque1 {
+      text-align: center; }
     .footer__link {
       display: flex;
       flex-direction: column;
       justify-content: space-between; }
+    .footer__co {
+      text-align: center; }
   .video__responsive {
     display: inline-block;
     text-decoration: none;

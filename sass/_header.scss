@@ -4,19 +4,19 @@
 display: none;
 }
 
-   
+
    .navbar{
     text-decoration: none;
     color: $blue ;
     font-family: $fontAnton;
-    font-size: x-large;   
+    font-size: x-large;
     height: 30px;
     margin: 20px;
-    list-style-type: none; 
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center; 
+    align-items: center;
 
     &__enlace {
 
@@ -26,13 +26,68 @@ display: none;
 
         transform:translatex(10px);
     }
-    
+
     }
+
+    &__responsive{
+
+        display: none;
+
+        &:hover > ul {
+            display: block;
+        }
+
+
+
+        i {
+            font-size: 35px;
+        }
+
+        ul{
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 100px;
+            width: 100%;
+            background-color:whitesmoke;
+
+    }
+
+    li{
+        padding: 25px 0;
+        text-align: center;
+
+
+        a{
+            color: $blue;
+            font-weight: bold;
+            color: $blue ;
+            font-family: $fontAnton;
+            font-size: 15px;
+            text-decoration: none;
+            transition: transform 0.4s;
+        }
+
+        &:hover{
+
+            transform:translatex(10px);
+        }
+
+        &:nth-child(odd){
+            background-color: lighten( $white, 3%);
+        }
+
+
+    }
+
 }
 
 
-    
+}
 
-    
+
+
+
+
 
 
